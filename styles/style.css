@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* header style */
+.header {
+  /* background-color: red; */
+  background-image: url("../images/donation0.jpg"),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 80%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-blend-mode: overlay;
+  /* padding: 90px 0; */
+  color: #ffffff;
+  text-align: center;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 65px;
+  padding-top: 120px;
+}
+
+.header-desc {
+  font-size: 18px;
+  padding: 20px 350px;
+}
+
+.btn-primary {
+  background: #ff5959;
+  padding: 16px 20px;
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* donate style */
+.donate-today {
+  padding: 150px 150px;
+  text-align: center;
+}
+
+.dt-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.dt-desc {
+  font-size: 18px;
+  color: #707070;
+  padding: 20px 200px;
+}
+
+.dt-money-container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 22px;
+  margin-bottom: 60px;
+}
+
+.dt-money {
+  width: 135px;
+  height: 135px;
+  background: #fafafa;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.money-title {
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.money-df {
+    border: 1px solid #FF5959;
+    background: #FFEEEE;
+    color: #FF5959;
+}
+
+.donate-today  input[type="text"] {
+    width: 100%;
+    color: #B3B3B3;
+    border: none;
+    height: 50px;
+    border-bottom: 1px solid #B3B3B3;
+    margin-bottom: 30px;
+}
+
+.donate-today  input[type="text"]::placeholder {
+    text-align: center;
+    color: #B3B3B3;
+    font-size: 18px;
+}
+
+/* donate plan style */
+.donate-plan {
+  padding: 150px 150px;
+  text-align: center;
+  padding-top: 0;
+}
+
+.dp-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.dp-desc {
+  font-size: 18px;
+  color: #707070;
+  padding: 20px 200px;
+  margin-bottom: 50px;
+}
+
+.dp-container {
+    display: flex;
+    gap: 24px;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+
+.dp-box {
+    width: 360px;
+    height: 300px;
+    padding: 60px 20px;
+}
+
+.dp-col-1 {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.dp-col-2 {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.dp-col-3 {
+    background: rgba(255, 244, 214, 0.5);
+}
+
+.dp-box-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 40px 0;
+    color: #121212;
+}
+
+.dp-box-desc {
+    color: #707070;
+    font-size: 16px;
+}
